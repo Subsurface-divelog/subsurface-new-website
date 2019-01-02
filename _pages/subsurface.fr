@@ -83,4 +83,5 @@ A l'automne 2011, lorsque qu'une accalmie forcée dans le développement du noya
 Linus travailla avec une équipe de développeurs, et Subsurface en est le résultat. Il supporte actuellement Linux, Windows et MacOS. Il permet l'import depuis un grand nombre d'ordinateurs de plongée ainsi que plusieurs programmes de journal de plongées existants. Il donne un accès facile et rapide à la visualisation des informations fournies par les ordinateurs de plongée modernes et permet aux utilisateurs de suivre un grand nombre de données au sujet de leurs plongées. À l'automne 2012, Dirk Hohndel a pris en charge le rôle de Mainteneur de Subsurface.
 Licence : GPLv2
 
+
 [/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
