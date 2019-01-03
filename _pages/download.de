@@ -1,0 +1,47 @@
+---
+post_title: Programm herunterladen
+layout: page
+permalink: https://subsurface-divelog.org/de/download/
+published: true
+post_language: de
+---
+[et_pb_section bb_built="1" admin_label="section"][et_pb_row admin_label="row" background_position="top_left" background_repeat="repeat" background_size="initial"][et_pb_column type="4_4"][et_pb_post_title global_module="1887" title="on" meta="off" author="on" date="on" categories="on" comments="on" featured_image="off" featured_placement="below" parallax_effect="on" parallax_method="off" text_orientation="left" text_color="dark" text_background="off" text_bg_color="rgba(255,255,255,0.9)" module_bg_color="rgba(255,255,255,0)" title_all_caps="off" use_border_color="off" border_color="#ffffff" border_style="solid" saved_tabs="all" title_font="|on|||" title_font_size="31px" title_text_color="#204a87" parallax="on" background_color="rgba(255,255,255,0)" background_position="top_left" background_repeat="repeat" background_size="initial"]
+
+&nbsp;
+
+[/et_pb_post_title][et_pb_text background_layout="light" use_border_color="off" _builder_version="3.0.92"]
+
+<div style="margin-bottom: 2em;">[himage]<a href="http://subsurface-divelog.org/downloads/subsurface-4.8.4.exe" class="s-var-slug-exeurl"><img src="/wp-content/uploads/2011/10/en-button-win.png" alt="" width="288" height="54"></a><img src="/wp-content/uploads/2011/10/en-button-win-hover.png" alt="" width="288" height="54">[/himage] [himage]<a href="http://subsurface-divelog.org/downloads/Subsurface-4.8.4.dmg" class="s-var-slug-dmgurl"><img src="/wp-content/uploads/2011/10/en-button-mac.png" alt="" width="288" height="54"></a><img src="/wp-content/uploads/2011/10/en-button-mac-hover.png" alt="" width="288" height="54">[/himage]</div>
+<h2>Windows</h2>
+<a href="http://subsurface-divelog.org/downloads/subsurface-4.8.4.exe" class="s-var-slug-exeurl"><span class="s-var-slug-exe">subsurface-4.8.4.exe</span></a> ist ein ausführbares Programm für das Windows Betriebssystem, das unter verschiedenen 32- und 64-bit Windows Versionen (insbesondere Windows 7, Windows 8 und Windows 10) getestet ist.
+<h2>Mac</h2>
+<a href="http://subsurface-divelog.org/downloads/Subsurface-4.8.4.dmg" class="s-var-slug-dmgurl"><span class="s-var-slug-dmg">Subsurface-4.8.4.dmg</span></a> ist eine Image-Datei für 64-bit Intel Macs unter MacOS 10.10 oder neuer; ein Doppelklick auf diese Datei öffnet den Datenträger. Das dadurch sichtbar werdende Programm “Subsurface.app” kann installiert werden, indem es auf den <tt>/Programme</tt> Ordner gezogen wird.
+<h2>Linux</h2>
+Das Subsurface Team stellt seine eigenen Binaries für verschiedene Linux Versionen sowie ein generisches "AppImage", das auf den meisten Linux Versionen funktionieren sollte, zur Verfügung.
+<h2>Ubuntu (16.04 and 18.04), LinuxMint (18), and Debian Stretch</h2>
+To use these binaries in Ubuntu, simply add the following PPA to your system:
+<pre><code>ppa:subsurface/subsurface</code></pre>
+On LinuxMint you have to add this on the command line and explicitly request the PPA version of Subsurface, otherwise the outdated Subsurface 4.0 would have been installed:
+<pre><code>sudo apt-add-repository ppa:subsurface/subsurface
+sudo apt-get update
+sudo apt-get install subsurface=<span class="s-var-slug-latest">4.8.4</span>-1~xenial</code></pre>
+For Debian Jessie you need to add the Ubuntu repository:
+<pre><code>echo "deb http://ppa.launchpad.net/subsurface/subsurface/ubuntu xenial main" 
+        | sudo tee /etc/apt/sources.list.d/subsurface.list
+gpg --keyserver subkeys.pgp.net --recv-keys A8BC9756EE61D9C6
+gpg -a --export A8BC9756EE61D9C6 | sudo apt-key add -
+sudo apt-get update</code></pre>
+For distributions who only support the older Subsurface version replace <code>xenial</code> with <code>trusty</code>.
+Now you can install Subsurface from that repository:
+<pre><code>sudo apt-get install subsurface</code></pre>
+Make sure you are getting a current version with all its Qt5 dependencies.
+<h2>OpenSUSE Leap 42.3, Leap 15.0, Tumbleweed and Fedora 27, 28, 29, and rawhide</h2>
+To install the official Subsurface package under these OpenSUSE or Fedora versions, go to <a href="http://software.opensuse.org/download.html?project=home:Subsurface-Divelog&amp;package=subsurface">our build service project page</a> and follow the simple instructions there - it's as easy as two clicks.
+<h2>All other 64bit Linux versions</h2>
+A generic AppImage is available for download as <a href="http://subsurface-divelog.org/downloads/Subsurface-4.8.4-x86_64.AppImage" class="s-var-slug-appimageurl"><span class="s-var-slug-appimage">Subsurface-4.8.4-x86_64.AppImage</span></a>. You should be able to download this file, make it executable <code>chmod +x <span class="s-var-slug-appimage">Subsurface-4.8.4-x86_64.AppImage</span</code> and then simply run this file. We are very interested in feedback regarding this way of distributing Linux binaries.
+<h2>Deprecated distribution maintained packages</h2>
+Some flavors of Linux allow an install of Subsurface from within the OS. While this is very convenient, we recommend that you use the official packages as described above.
+<h2>Sources</h2>
+Sources are of course available via <a href="http://github.com/Subsurface-divelog/subsurface.git">git</a> or as a release tar-ball <a href="http://subsurface-divelog.org/downloads/Subsurface-4.8.4.tgz" class="s-var-slug-srctarurl"><span class="s-var-slug-srctar">Subsurface-4.8.4.tgz</span></a>. The sources of the GPL and LGPL components shipped with the Mac and Windows binaries can be found at <a href="http://www.macports.org/">MacPorts</a> and <a href="http://sourceforge.net/projects/mingw/files/">MinGW</a>.
+
+[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]
